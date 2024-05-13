@@ -117,9 +117,9 @@ Support this project with your organization. Your logo will show up here with a 
 
 
 
-本地WEB服务(NoteJS) 搭建方法
-1,全局安装 http server
-   npm install http-server -g
-2,切换到静态文件服务所在目录
-3，执行 --cors 允许跨域
-http-server -p 8090 --cors
+## 本地WEB服务(NoteJS) 搭建方法
+### 1,全局安装 http server </b>
+####    npm install http-server -g </b>
+### 2,切换到静态文件服务所在目录 </b>
+### 3，执行 --cors 允许跨域 </b>
+#### http-server -p 8090 --cors </b>
