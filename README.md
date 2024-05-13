@@ -114,3 +114,12 @@ Support this project with your organization. Your logo will show up here with a 
 <a href="https://opencollective.com/getwidget/organization/7/website"><img src="https://opencollective.com/getwidget/organization/7/avatar.svg"></a>
 <a href="https://opencollective.com/getwidget/organization/8/website"><img src="https://opencollective.com/getwidget/organization/8/avatar.svg"></a>
 <a href="https://opencollective.com/getwidget/organization/9/website"><img src="https://opencollective.com/getwidget/organization/9/avatar.svg"></a>
+
+
+
+本地WEB服务(NoteJS) 搭建方法
+1,全局安装 http server
+   npm install http-server -g
+2,切换到静态文件服务所在目录
+3，执行 --cors 允许跨域
+http-server -p 8090 --cors
