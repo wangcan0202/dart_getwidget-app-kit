@@ -123,3 +123,45 @@ Support this project with your organization. Your logo will show up here with a 
 ### 2,切换到静态文件服务所在目录 </b>
 ### 3，执行 --cors 允许跨域 </b>
 #### http-server -p 8090 --cors </b>
+
+
+## windows fvm 安装 </b>
+### 1、下载flutter2.5.3（或其他老版本，配置Dart环境） </b>
+    在系统环境变量的PATH中增加如下路径：</b>    
+    C:\coprj\flutter\2.5.3\bin </b>
+    删除该目录下的flutter flutter.bat </b>
+  
+### 2、下载配置FVM </b>
+   dart pub global activate fvm </b>
+
+   在系统环境变量的PATH中增加如下路径：</b>    
+   %%LocalAppData%%\Pub\Cache\bin </b>
+
+   在系统中增加FVM的环境变量 </b>
+   FVM_HOME=C:\coprj\flutter\fvm </b>
+   该路径为不同flutter版本的安装路径</b>
+   C:\coprj\flutter\fvm\default 该路径为flutter 配置路径，是一个链接方式</b>
+
+### 3、fvm 安装 flutter版本</b>
+   fvm install 2.5.1 </b>
+   fvm install 2.10.5 </b>
+   fvm install 3.19.6 </b>
+
+### 4、切换 flutter版本</b>
+   fvm global 2.5.3 </b>
+   fvm global 2.10.5 </b>
+   fvm global 3.19.6 </b>
+
+### 5、配置android studio flutter 位置</b>
+   C:\coprj\flutter\fvm\default </b>
+
+
+### 5、其他命令
+fvm list   #查看当前下载了哪些版本的sdk </b>
+fvm install 2.2.3 #安装指定版本的 flutter </b>
+fvm remove 2.2.3 #删除指定版本的 flutter </b>
+fvm global 2.2.3 #设置全局 flutter 版本 </b>
+fvm use 1.17.2 #设置当前项目的 flutter 版本 </b>
+如果无法切换 可以在命令后添加 --force </b>
+如果还是不行 需使用管理员打开cmd </b>
+
